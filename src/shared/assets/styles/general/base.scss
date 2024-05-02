@@ -754,3 +754,10 @@ button {
   pointer-events: none;
   opacity: 0.5;
 }
+
+// Обнуление стилей у списков
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

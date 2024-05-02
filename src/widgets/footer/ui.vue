@@ -17,7 +17,7 @@
 </template>
 
 <script setup>
-const year = new Date().getFullYear();
+const year = new Date().getUTCFullYear(); // если изменить локальную дату на устройстве, то она и будет выводиться при вызове метода getFullYear()
 </script>
 
 <style lang="scss">
